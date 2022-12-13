@@ -1,20 +1,16 @@
-# DEB packages
+##################### DEB packages  #####################
 # echo "You selected Debian/Ubuntu"
-
+# echo "Installing dependencies..."
 # sudo apt install python python3-pip wget git -y fd-find
+# echo "Installing Ulauncher..."
 # sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
-
-
-#fedora packages
+##################### fedora packages #####################
 echo "You selected Fedora"
-
 echo "Installing dependencies..."
-
 sudo dnf install python3 python3-pip wget git fd-find
-
 echo "Installing Ulauncher..."
-
 sudo dnf install ulauncher
+##################### comment 8, 9, 10, 11, 12 line if you are on ubuntu ############   
 
 echo "Installing Ulauncher pip packages for extensions..."
 
@@ -52,5 +48,4 @@ git clone https://github.com/luasenvy/ulauncher-node
 git clone https://github.com/brpaz/ulauncher-lipsum
 git clone https://github.com/Glovecc/ulauncher-github-search
 git clone https://github.com/skykooler/ulauncher-conversion
-
 echo "done"
