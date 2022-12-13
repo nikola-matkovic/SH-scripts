@@ -1,10 +1,22 @@
 # DEB packages
+# echo "You selected Debian/Ubuntu"
+
 # sudo apt install python python3-pip wget git -y fd-find
 # sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
 
-fedora packages
+
+#fedora packages
+echo "You selected Fedora"
+
+echo "Installing dependencies..."
+
 sudo dnf install python3 python3-pip wget git fd-find
+
+echo "Installing Ulauncher..."
+
 sudo dnf install ulauncher
+
+echo "Installing Ulauncher pip packages for extensions..."
 
 pip install fuzzywuzzy
 pip install uuid
@@ -17,9 +29,8 @@ pip install Pint simpleeval parsedatetime pytz
 pip install babel
 pip install gkeepapi
 pip3 install lorem
-
+echo "Installing Ulauncher extensions..."
 cd ./local/share/ulauncher/extensions
-
 git clone https://github.com/rootwork/ulauncher-symbol
 git clone https://github.com/NastuzziSamy/ulauncher-youtube-search
 git clone https://github.com/plibither8/ulauncher-vscode-recent
@@ -41,3 +52,5 @@ git clone https://github.com/luasenvy/ulauncher-node
 git clone https://github.com/brpaz/ulauncher-lipsum
 git clone https://github.com/Glovecc/ulauncher-github-search
 git clone https://github.com/skykooler/ulauncher-conversion
+
+echo "done"
