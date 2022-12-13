@@ -20,24 +20,24 @@ pip3 install lorem
 
 cd ./local/share/ulauncher/extensions
 
-https://github.com/rootwork/ulauncher-symbol
-https://github.com/NastuzziSamy/ulauncher-youtube-search
-https://github.com/plibither8/ulauncher-vscode-recent
-https://github.com/Quitten/ulauncher-notes
-https://github.com/kleber-swf/ulauncher-turn-off-screen
-https://github.com/NastuzziSamy/ulauncher-translate
-https://github.com/elken/Terminal-Runner
-https://github.com/Ulauncher/ulauncher-emoji
-https://github.com/brpaz/ulauncher-pwgen
-https://github.com/brpaz/ulauncher-file-search
-https://github.com/sergius02/ulauncher-colorconverter
-https://github.com/fsevenm/ulauncher-wordc
-https://github.com/jmakhack/ulauncher-neofetch-runner
-https://github.com/tchar/ulauncher-albert-calculate-anything
-https://github.com/DevKleber/ulauncher-open-link
-https://github.com/isacikgoz/ukill
-https://github.com/ybotspawn/Keep-ULauncher
-https://github.com/luasenvy/ulauncher-node
-https://github.com/brpaz/ulauncher-lipsum
-https://github.com/Glovecc/ulauncher-github-search
-https://github.com/skykooler/ulauncher-conversion
+git clone https://github.com/rootwork/ulauncher-symbol
+git clone https://github.com/NastuzziSamy/ulauncher-youtube-search
+git clone https://github.com/plibither8/ulauncher-vscode-recent
+git clone https://github.com/Quitten/ulauncher-notes
+git clone https://github.com/kleber-swf/ulauncher-turn-off-screen
+git clone https://github.com/NastuzziSamy/ulauncher-translate
+git clone https://github.com/elken/Terminal-Runner
+git clone https://github.com/Ulauncher/ulauncher-emoji
+git clone https://github.com/brpaz/ulauncher-pwgen
+git clone https://github.com/brpaz/ulauncher-file-search
+git clone https://github.com/sergius02/ulauncher-colorconverter
+git clone https://github.com/fsevenm/ulauncher-wordc
+git clone https://github.com/jmakhack/ulauncher-neofetch-runner
+git clone https://github.com/tchar/ulauncher-albert-calculate-anything
+git clone https://github.com/DevKleber/ulauncher-open-link
+git clone https://github.com/isacikgoz/ukill
+git clone https://github.com/ybotspawn/Keep-ULauncher
+git clone https://github.com/luasenvy/ulauncher-node
+git clone https://github.com/brpaz/ulauncher-lipsum
+git clone https://github.com/Glovecc/ulauncher-github-search
+git clone https://github.com/skykooler/ulauncher-conversion
