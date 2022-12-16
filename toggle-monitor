@@ -17,13 +17,13 @@ value=`cat screen-config.txt`
 
 #if it is 0, then turn off the monitor
 if [ $value -eq 0 ]; then
-    xrandr --output VGA-1 --off
+    xrandr --output VGA-0 --off
     echo "1" > screen-config.txt
     echo "Monitor turned off"
 fi
 #else turn on the monitor
 if [ $value -eq 1 ]; then
-    xrandr --output VGA-1 --left-of HDMI-1 --auto
+    xrandr --output VGA-0 --left-of HDMI-0 --auto
     echo "0" > screen-config.txt
     echo "Monitor turned on"
 fi
